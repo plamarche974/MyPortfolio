@@ -1,0 +1,111 @@
+﻿@model bool
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12 text-center">
+            <div class="question-display mb-4">
+                <h3 class="display-3">@this.ViewBag.question.QuestionContent</h3>
+            </div>
+        </div>
+    </div>
+    <!-- Première ligne de boutons -->
+    <form asp-controller="Game" asp-action="Index" method="post">
+        <div class="row mt-4 justify-content-center">
+            <div class="col-6 col-md-4 my-2">
+                @if (Model)
+                {
+                    <button type="submit" class="btn btn-secondary btn-lg btn-block mx-auto text-white" name="answer" value="@this.ViewBag.questionRange[0]">@this.ViewBag.question.ChoiceA</button>
+                }
+                else
+                {
+                        <button class="btn @(this.ViewBag.rightAnswer ==0 ? "btn-success" : "btn-danger") btn-lg btn-block mx-auto text-white" disabled>@this.ViewBag.question.ChoiceA</button>
+                }
+
+            </div>
+            <div class="col-6 col-md-4 my-2">
+                @if (Model)
+                {
+                        <button type="submit" class="btn btn-secondary btn-lg btn-block mx-auto text-white" name="answer" value="@this.ViewBag.questionRange[1]">@this.ViewBag.question.ChoiceB</button>
+                }
+                else
+                {
+                                   <button class="btn @(this.ViewBag.rightAnswer ==1 ? "btn-success" : "btn-danger") btn-lg btn-block mx-auto text-white" disabled>@this.ViewBag.question.ChoiceB</button>
+                }            
+            </div>
+        </div>
+        <!-- Deuxième ligne de boutons -->
+        <div class="row mt-4 justify-content-center">
+            <div class="col-6 col-md-4 my-2">
+                @if (Model)
+                {
+                        <button type="submit" class="btn btn-secondary btn-lg btn-block mx-auto text-white" name="answer" value="@this.ViewBag.questionRange[2]">@this.ViewBag.question.ChoiceC</button>
+                }
+                else
+                {
+                                        <button class="btn @(this.ViewBag.rightAnswer ==2 ? "btn-success" : "btn-danger") btn-lg btn-block mx-auto text-white" disabled>@this.ViewBag.question.ChoiceC</button>
+                }            </div>
+            <div class="col-6 col-md-4 my-2">
+                @if (Model)
+                {
+                        <button type="submit" class="btn btn-secondary btn-lg btn-block mx-auto text-white" name="answer" value="@this.ViewBag.questionRange[3]">@this.ViewBag.question.ChoiceD</button>
+                }
+                else
+                {
+                                    <button class="btn @(this.ViewBag.rightAnswer ==3 ? "btn-success" : "btn-danger") btn-lg btn-block mx-auto text-white" disabled>@this.ViewBag.question.ChoiceD</button>
+                }
+                </div>
+    </form>
+
+    </div>
+@if (!Model)
+{
+    <div class="mt-3" style="width: 200px; margin-left: auto; margin-right: auto;">
+            @if(!(this.ViewBag.id == 9))
+            {
+                <a href="@Url.Action("Index", "Game", new { Id = this.ViewBag.id })" class="btn btn-primary btn-block">Question suivante</a>
+            }
+        else
+            {
+                        <a href="@Url.Action("Result", "Game")" class="btn btn-primary btn-block">Voir les résultats</a>
+            }
+                        
+    </div>
+}
+
+</div>
+
+@section Styles {
+        <style>
+            .question-display {
+                min-height: 150px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 30px;
+            }
+            .btn-lg {
+                padding: 20px 0;
+                font-size: 1.5rem;
+            }
+            /* Ajustement pour agrandir la largeur des boutons */
+            .btn-block.mx-auto {
+                display: block;
+                width: 90%; /* Ajustez la largeur ici, 90% par exemple pour une largeur plus grande */
+                margin-left: auto;
+                margin-right: auto;
+            }
+            /* Bootstrap classe de couleur de fond gris et texte blanc */
+            .btn-secondary {
+                background-color: #6c757d;
+                border-color: #6c757d;
+            }
+            .text-white {
+                color: #fff;
+            }
+        </style>
+}

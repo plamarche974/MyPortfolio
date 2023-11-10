@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center my-5">
+    <h1 class="display-4">Welcome to The Quizz</h1>
+</div>
+<div class="container">
+    <div class="row justify-content-center align-items-center" style="min-height: 40vh;">
+        <div class="col-sm-12 col-md-8">
+            <div class="text-center">
+                    <form asp-controller="Home" asp-action="Index" method="post">
+                        <label for="PlayerName" class="sr-only">Nom du joueur:</label>
+                        <input type="text" class="form-control mb-2 mr-sm-2" id="PlayerName" name="PlayerName" placeholder="Entrez votre nom" required>
+                        <button type="submit" class="btn btn-primary mb-2">Démarrer le Quiz</button>
+                    </form>
+            </div>
+        </div>
+    </div>
+</div>
+

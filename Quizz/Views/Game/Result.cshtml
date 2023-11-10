@@ -1,0 +1,31 @@
+﻿@model List<Quizz.Models.Score>
+
+
+@{
+    ViewData["Title"] = "Result";
+}
+
+<div class="container mt-5">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Score ID</th>
+                <th>Nom du Joueur</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < this.ViewBag.numberOfValue; i++)
+            {
+            <tr>
+                    <td>@i</td>
+                    <td>@Model[i].PlayerName</td>
+                    <td>@Model[i].PlayerScore</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+
+     <a href="@Url.Action("Index", "Home")" class="btn btn-primary btn-block"> Rejouer ?</a>
+
+</div>
