@@ -1,0 +1,12 @@
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\MediaData\bin\Debug\net6.0\MediaData.deps.json
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\MediaData\bin\Debug\net6.0\MediaData.dll
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\MediaData\bin\Debug\net6.0\MediaData.pdb
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\MediaData\obj\Debug\net6.0\MediaData.csproj.AssemblyReference.cache
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\MediaData\obj\Debug\net6.0\MediaData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\MediaData\obj\Debug\net6.0\MediaData.AssemblyInfoInputs.cache
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\MediaData\obj\Debug\net6.0\MediaData.AssemblyInfo.cs
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\MediaData\obj\Debug\net6.0\MediaData.csproj.CoreCompileInputs.cache
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\MediaData\obj\Debug\net6.0\MediaData.dll
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\MediaData\obj\Debug\net6.0\refint\MediaData.dll
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\MediaData\obj\Debug\net6.0\MediaData.pdb
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\MediaData\obj\Debug\net6.0\ref\MediaData.dll

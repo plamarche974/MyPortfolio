@@ -1,6 +1,8 @@
 using MetaMedia.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using MediaData;
+using System.Configuration;
 
 namespace MetaMedia
 {
@@ -19,6 +21,9 @@ namespace MetaMedia
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+            builder.Services.AddDbContext<DataDBContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 

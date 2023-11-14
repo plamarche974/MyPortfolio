@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MediaData
 {
-    internal class Staff
+    public class Staff
     {
         public int ID { get; set; }
 
