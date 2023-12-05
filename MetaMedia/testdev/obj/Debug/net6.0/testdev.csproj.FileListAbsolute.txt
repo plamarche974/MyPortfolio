@@ -1,0 +1,15 @@
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\testdev\bin\Debug\net6.0\testdev.exe
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\testdev\bin\Debug\net6.0\testdev.deps.json
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\testdev\bin\Debug\net6.0\testdev.runtimeconfig.json
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\testdev\bin\Debug\net6.0\testdev.dll
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\testdev\bin\Debug\net6.0\testdev.pdb
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\testdev\obj\Debug\net6.0\testdev.csproj.AssemblyReference.cache
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\testdev\obj\Debug\net6.0\testdev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\testdev\obj\Debug\net6.0\testdev.AssemblyInfoInputs.cache
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\testdev\obj\Debug\net6.0\testdev.AssemblyInfo.cs
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\testdev\obj\Debug\net6.0\testdev.csproj.CoreCompileInputs.cache
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\testdev\obj\Debug\net6.0\testdev.dll
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\testdev\obj\Debug\net6.0\refint\testdev.dll
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\testdev\obj\Debug\net6.0\testdev.pdb
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\testdev\obj\Debug\net6.0\testdev.genruntimeconfig.cache
+C:\Users\pierr\Desktop\C#\MyPortfolio\MetaMedia\testdev\obj\Debug\net6.0\ref\testdev.dll
